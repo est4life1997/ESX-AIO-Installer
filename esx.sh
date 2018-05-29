@@ -28,7 +28,7 @@ select opt in "${options[@]}"; do
         mkdir esx 
         cd esx 
 
-        wget -q https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/558-deb66d570b3e57159522ff3323bb3e3b80af1a3d/fx.tar.xz
+        wget -q https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/627-10962cea887ff23b3ae1614b7152ca44c2ccbb35/fx.tar.xz
         tar xf fx.tar.xz
         echo -e "\\r${CHECK_MARK} Server is installed"
         git clone https://github.com/citizenfx/cfx-server-data.git server-data &> /dev/null
